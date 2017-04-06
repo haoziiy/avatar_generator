@@ -1,6 +1,6 @@
-import avatar_generator
+import identicon
 def gen_avatar_batch(code,size):
-	img= avatar_generator.render_identicon(code, 16)
+	img= identicon.render_identicon(code, 16)
 	#img.show()
 	img.save('%s_%s.png'%(code,size))
 
