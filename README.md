@@ -7,9 +7,11 @@ Identicon 在很多大型IT网站上可以见到,比如 Github, Sourceforge, Sta
 以 Github 为例， Github 给无头像用户生成 5x5 像素的 Identicons 头像。
 这一生成过程使用了用户ID的哈希值，然后根据哈希值每一位的奇偶值来决定对应位置上的像素的开关。
 这样生成 的图像，配上由哈希值决定的颜色，保证可生成大量独一无二的图像。
+
+
+
 ![](http://identicon.net/img/identicon.png)
 哈希头像事例：http://identicon.net
-
 
 根据哈希算法，本项目代码可以通过运行test_batch文件会在相同的目录保存多个png格式的图片。
 ````
